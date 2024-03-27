@@ -22,10 +22,8 @@ export default function Login({navigation,route}) {
      const user = userCredential.user;
      console.log("user data that is signed in ==> ", user);
      console.log("\n Email ==> ", user.email);
-     // console.log("user data,", user.uid);
+     
      // console.log("stsTokenManager", user.stsTokenManager.accessToken);
-
-     // AsyncStorage.setItem("myuser", JSON.stringify(user));
 
      const emailSplitted = user.email.split("@")
      console.log("\n auth ==>", emailSplitted[0])

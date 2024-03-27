@@ -11,7 +11,7 @@ import {createUserWithEmailAndPassword, signInWithEmailAndPassword, signInAnonym
 export default function Login({navigation,route}) {
   
   const [userName,setUserName] = useState();
-  const [userPassword,setPassword] = useState()
+  const [userPassword,setPassword] = useState();
 
   // Onpress of login button 
   const onLogIn = async ()=>{

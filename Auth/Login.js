@@ -10,7 +10,7 @@ import {createUserWithEmailAndPassword, signInWithEmailAndPassword, signInAnonym
 // import {Colors} from '../Constants/Colors';
 export default function Login({navigation,route}) {
   
-  const [userName,setUserName] = useState()
+  const [userName,setUserName] = useState();
   const [userPassword,setPassword] = useState()
 
   // Onpress of login button 
